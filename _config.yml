@@ -1,0 +1,35 @@
+# Site settings
+title: 赵嘉盟的主页          # 网站标题，显示在浏览器的标签页和页面的显著位置
+description: '赵嘉盟的主页'   # 网站描述，通常用于 SEO 和社交媒体分享
+url: 'https://zhao-jiameng.github.io/'  # 网站的完整 URL，用于生成绝对路径
+baseurl: ''                  # 网站的基础 URL，如果网站部署在子目录中，需要填写子目录路径
+profilepic: '/images/tzuehlke.jpg'  # 个人头像的路径，通常用于显示在主页或关于页面
+bkimage: '/images/bk1.jpg'          # 背景图片的路径，通常用于网站的背景图
+google_analytics: UA-XXXXXX-X       # Google Analytics 跟踪 ID，用于网站流量统计
+font_awesome: '/css/all.min.css'       # Font Awesome 的 JavaScript 文件路径，用于加载图标库
+
+author:                          # 作者信息部分
+  name: '赵嘉盟'                  # 作者姓名
+  email: biubiufly@qq.com         # 作者邮箱
+  CSDN: m0_57376564     
+  weixin: 楚狂.  
+  github_username:  zhao-jiameng  # 作者在 GitHub 上的用户名
+
+
+# Build settings
+destination: _site               # 构建后的网站文件输出目录
+markdown: kramdown               # 使用的 Markdown 解析器
+highlighter: rouge               # 代码高亮工具
+
+sass:                            # Sass 配置部分
+    sass_dir: _sass               # Sass 文件的目录
+    style: compressed             # Sass 输出样式，`compressed` 表示压缩后的 CSS
+
+kramdown:                        # Kramdown 配置部分
+  # use Github Flavored Markdown
+  input: GFM                     # 使用 GitHub Flavored Markdown 语法
+  # do not replace newlines by <br>s
+  hard_wrap: false               # 是否将换行符转换为 `<br>` 标签，`false` 表示不转换
+
+#plugins: ['jekyll-paginate']    # 使用的 Jekyll 插件列表（已注释掉）
+exclude: ['README.md', 'screenshot-overview.png']  # 构建时排除的文件列表
