@@ -1,0 +1,25 @@
+# projects section data
+- name: Here's the scala code for the basics and for flink and spark
+  gh_user: zhao-jiameng
+  repo: Scala_Project
+  img: /images/png/1.png
+
+- name: This is about Opencv based on Python interface of some face recognition notes and implementation
+  gh_user: zhao-jiameng
+  repo: VSCode_Project
+  img: /images/png/2.png
+
+- name: BIgData This is the code for Bigdata's skills competition
+  gh_user: zhao-jiameng
+  repo: BIgData
+  img: /images/png/3.png
+
+- name: This is my study of all the front-end code, from the dark horse programmer, interested students can refer to themselves
+  gh_user: zhao-jiameng
+  repo: Front_Project
+  img: /images/png/4.jpg
+
+- name: Although the mountains and rivers are unharmed, my generation should be self-reliant
+  gh_user: zhao-jiameng
+  repo: html
+  img: /images/png/5.jpg
